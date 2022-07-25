@@ -4,7 +4,7 @@ const container = document.querySelector(".container");
 //Items
 const title = document.querySelector(".title");
 const person = document.querySelector(".person img");
-const contact = document.querySelector(".contact");
+// const contact = document.querySelector(".contact");
 const description = document.querySelector(".info h3");
 const socials = document.querySelector(".socials img");
 
@@ -23,7 +23,7 @@ container.addEventListener("mouseenter", (e) => {
   person.style.transform = "translateZ(200px) ";
   description.style.transform = "translateZ(125px)";
   socials.style.transform = "translateZ(200px)";
-  contact.style.transform = "translateZ(75px)";
+  // contact.style.transform = "translateZ(75px)";
 });
 //Animate Out
 container.addEventListener("mouseleave", (e) => {
@@ -34,5 +34,5 @@ container.addEventListener("mouseleave", (e) => {
   person.style.transform = "translateZ(0px) rotateZ(0deg)";
   description.style.transform = "translateZ(0px)";
   socials.style.transform = "translateZ(0px)";
-  contact.style.transform = "translateZ(0px)";
+  // contact.style.transform = "translateZ(0px)";
 });
